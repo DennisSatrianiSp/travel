@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\About2Controller;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
@@ -22,3 +23,5 @@ Route::get('/', function () {
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Route::get('/about2',[About2Controller::class, 'index'])->name('about2');

@@ -16,7 +16,7 @@
 </template>
 <script>
 export default {
-    name:'Hero',
+    name:'About',
 }
 </script>
 <style>
