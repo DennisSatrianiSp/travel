@@ -5,8 +5,10 @@
             <h1 class="text-6xl ms-20 mt-5">Tentang Keliling Kuy</h1>
             <p class="ms-20 mt-2 tulisan">Selain itu, Keliling Kuy juga memberikan layanan khusus bagi pelanggan yang ingin merencanakan perjalanan khusus seperti perjalanan bulan madu, perjalanan keluarga, perjalanan rombongan, dan lain sebagainya. Perusahaan ini akan membantu pelanggan dalam memilih destinasi wisata yang sesuai dengan keinginan mereka dan mengatur perjalanan secara detail sehingga pelanggan dapat menikmati perjalanan mereka tanpa adanya kendala.</p>
             <p class="ms-20 mt-2 tulisan">Terakhir, Keliling Kuy juga memberikan pelayanan terbaik dan ramah kepada pelanggan selama perjalanan berlangsung. Tim Keliling Kuy selalu siap membantu pelanggan dalam mengatasi masalah yang terjadi selama perjalanan dan memberikan solusi yang terbaik untuk kepuasan pelanggan. Dengan demikian, pelanggan akan merasa aman dan nyaman selama 
-</p>
-            <button class="tombol bg-stone-900 p-2 rounded-lg">Next Page -></button>
+</p>        
+
+<a href="/about"><button class="tombol1 bg-stone-900 p-2 rounded-lg">Previous Page</button></a>
+            <a href="/kelebihan"><button class="tombol bg-stone-900 p-2 rounded-lg">Next Page</button></a>
         </div>
         <div class="kiri w-2/4 h-full">
             <img src="../img/logo.png" class="gambar" alt="">
@@ -34,7 +36,16 @@ export default {
     margin-left: 250px;
     width: 150px;
 }
+.tombol1 {
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 150px;
+}
 .tombol:hover {
+    background-color: white;
+    color: black;
+}
+.tombol1:hover {
     background-color: white;
     color: black;
 }

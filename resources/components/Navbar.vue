@@ -7,10 +7,10 @@
             <div>
                 <ul class="flex">
                     <li class="group">
-                        <a href="{{route('about')}}" class="mx-3 flex text-[#FFF500]">Home</a>
+                        <a href="/home" class="mx-3 flex text-[#FFF500]">Home</a>
                     </li>
                     <li class="group">
-                        <a href="{{ route('about') }}" class="mx-3 flex group-hover:text-[#FFF500]">About</a>
+                        <a href="/about" class="mx-3 flex group-hover:text-[#FFF500]">About</a>
                     </li>
                     <li class="group">
                         <a href="" class="mx-3 flex group-hover:text-[#FFF500]">Destination</a>
@@ -45,10 +45,6 @@ export default {
 }
 </script>
 <style>
-/* .body {
-    background-image: url('../img/background.jpg');
-    color: white;
-} */
 .container {
     font-family: 'Lilita One', cursive;
 }
