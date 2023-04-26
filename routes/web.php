@@ -3,6 +3,7 @@
 use App\Http\Controllers\About2Controller;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\KelebihanController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,3 +26,5 @@ Route::get('/home', [HomeController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
 
 Route::get('/about2',[About2Controller::class, 'index']);
+
+Route::get('/kelebihan', [KelebihanController::class, 'index']);
